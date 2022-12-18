@@ -92,3 +92,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 DISABLE_AUTO_UPDATE=true
 DISABLE_UPDATE_PROMPT=true
+
+alias rm='rm -i '
+alias cp='cp -i '
+alias mv='mv -i '
