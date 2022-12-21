@@ -61,7 +61,7 @@ ZSH_THEME="codespaces"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(cp dotenv git npm ripgrep)
+plugins=(cp dotenv git npm ripgrep timer)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -96,3 +96,6 @@ DISABLE_UPDATE_PROMPT=true
 alias rm='rm -i '
 alias cp='cp -i '
 alias mv='mv -i '
+
+export TIMER_FORMAT='[%d]'
+export TIMER_PRECISION=0
