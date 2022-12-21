@@ -99,3 +99,4 @@ alias mv='mv -i '
 
 export TIMER_FORMAT='[%d]'
 export TIMER_PRECISION=0
+export TIMER_THRESHOLD=5
