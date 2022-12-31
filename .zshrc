@@ -101,6 +101,6 @@ alias nx='npx nx '
 alias firebase='npx firebase '
 
 # timer plugin for zsh
-export TIMER_FORMAT='[%d]'
+# export TIMER_FORMAT='[%d]'
 export TIMER_PRECISION=0 # No decimals
 export TIMER_THRESHOLD=5 # Show timer when command took 5 seconds
