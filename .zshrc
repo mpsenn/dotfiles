@@ -4,8 +4,7 @@ export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="codespaces"
-
+ZSH_THEME="avit"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
