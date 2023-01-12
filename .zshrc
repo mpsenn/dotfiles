@@ -17,7 +17,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(cp dotenv git npm ripgrep timer)
+plugins=(cp dotenv git npm ripgrep)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -40,11 +40,6 @@ alias mv='mv -i '
 
 alias nx='npx nx '
 alias firebase='npx firebase '
-
-# timer plugin for zsh
-# export TIMER_FORMAT='[%d]'
-export TIMER_PRECISION=0 # No decimals
-export TIMER_THRESHOLD=5 # Show timer when command took 5 seconds
 
 # To customize prompt, run `p10k configure` or edit /tmp/node-code-zsh/.p10k.zsh.
 [[ ! -f /tmp/node-code-zsh/.p10k.zsh ]] || source /tmp/node-code-zsh/.p10k.zsh
