@@ -43,3 +43,5 @@ alias firebase='npx firebase '
 
 # To customize prompt, run `p10k configure` or edit /tmp/node-code-zsh/.p10k.zsh.
 [[ ! -f /tmp/node-code-zsh/.p10k.zsh ]] || source /tmp/node-code-zsh/.p10k.zsh
+
+export PATH="/home/codespace/.deno/bin:$PATH"
