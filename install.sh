@@ -1,4 +1,4 @@
-#!/usr/bin/zsh
+#!/usr/bin/sh
 
 # Configure powerlevel10k zsh theme
 ln .zshrc .p10k.zsh $HOME/
